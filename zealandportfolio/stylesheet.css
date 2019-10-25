@@ -1,0 +1,290 @@
+@charset "utf-8";
+body{
+	background-color:#000000;
+	font-size: 100%;
+}
+
+#wrapper {
+	margin-right:10px;
+	margin-left:10px;
+	margin-top:10px;
+	max-width:1400px;
+	padding-right:10px;
+	padding-left:10px;
+	font-size:30px;
+	font-family:Stroke; 
+	color:#FFFFFF;
+	
+
+}
+.da {
+	text-decoration: none;
+	color:#FFFFFF;
+	
+}
+#logo {
+	font-family: Stroke;
+	font-size: 30px;
+	font-style: bold;
+	padding-right:100px;
+	padding-left:auto;
+	margin-right:900px;
+	}
+.iar {
+
+	padding-right: auto;
+	padding-left: 60px;
+}
+#lays {
+	word-spacing: 50px;
+	text-decoration-color:#FFFFFF;
+	padding-top:-10px;
+	position:inherit;
+	text-decoration: none;
+	line-height:1;
+	padding-left: 30px;
+	padding-right: 70px;
+	
+}
+header, main, main nav{
+	border-radius:none; /* rund hjorne */
+	border:none; /* kant */
+	position:absolute;
+	color:#FFFFFF;
+
+	
+}
+
+header, nav{
+	text-align:right;
+	margin-top: -85px;
+	color:#FFFFFF;
+
+	
+}
+
+header{
+	background-color:#000000;
+	overflow:auto;
+	margin-bottom:none;
+	
+}
+.pls {
+	font-family: "Poppins Medium";
+	font-size: 65px;
+	padding-left: 52px;
+	padding-right: 15px;
+	padding-top: 150px;
+	line-height: 0.3;
+}
+.asd {
+	font-family: "Poppins Medium";
+	font-size: 65px;
+	padding-left: 52px;
+	padding-right: 15px;
+	line-height: 0.3;
+	
+	
+}
+.ruj {
+	font-family: "Poppins Medium";
+	font-size: 65px;
+	padding-left: 50px;
+	padding-right: 10px;
+	paddin-top: 190px;
+	line-height: 0.2;
+	text-decoration: underline;
+	
+}
+.aid {
+	font-family: "Poppins Medium";
+	font-size: 20px;
+	text-align: center;
+	padding-top: 80px;
+	line-height:0.8;
+	color: #FFFFFF;
+	
+}
+.key {
+	font-family: "Poppins Medium";
+	text-align: center;
+	line-height:0.8;
+	color: grey;
+	padding-top: 200px;
+	padding-left: 20px;
+	font-size: 15px;
+}
+.kit {
+	font-family: 'Poppins Medium';
+	color: #FFFFFF;
+	text-align: left;
+	padding-left:60px;
+	padding-top: 130px;
+	font-size: 25px;
+	align-content: center;
+	
+}
+.nu{ 
+	line-height: 0.1;
+}
+.dop {
+	padding-top: 120px;
+	padding-right:auto;
+	padding-left: 100px;
+}
+
+input[type=text], select, textarea {
+  width:100%;
+  padding: 12px;   
+  border: 1px solid #000000;
+  border-radius: 4px; 
+  
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  font-family:'Poppins Medium';
+	object-position: left;
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+font-family: Stroke;
+	
+	
+	
+}
+
+
+input[type=submit]:hover {
+  background-color:#2E2E2E;
+	font-family:Stroke;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+	font-family:Stroke;
+}
+.grid {
+	font-family:"Poppins Medium";
+}
+.poi{
+	Font-family:"Poppins Medium";
+	color: #FFFFFF;
+	margin-top: 150px;
+	margin-left: 50px;
+	font-size: 25px;
+}
+.but {
+	padding-right: 600px;
+}
+.kim {
+	margin-top: 150px;
+	margin-left: 660px;
+	
+}
+
+.rop{
+	font-family:"Poppins Medium";
+	
+	margin-right: 200px;
+	margin-left: 300px;
+	font-size: 38px;
+	margin-top: 150px;
+}
+.trt {
+	margin-left: 600px;
+	margin-top: 150px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+.wrapper {
+	width: 100%;
+}
+.pls, .asd, .ruj {
+	width: 100%;
+}
+.logo {
+	width: 20%;
+}
+@media only screen and (max-width: 600px) {
+	.wrapper{
+  width:100%;
+	}
+}
+@media screen and (max-width:980px) {
+	#wrapper{
+		width:100%;
+	}
+	header nav{
+		width:80%;
+	}
+	main nav{
+		width:20%;
+	}
+	nav .button{
+		width:80%;
+	}
+	aside{
+		widt:20%;
+	}
+}
+
+@media screen and (max-width:700px){
+	#wrapper{
+		width:98%;
+	}
+	main{
+		width:100%;
+	}
+	main nav{
+		width:20%;
+	}
+	main nav .button{
+		width:80%;
+	}
+	section{
+		wirdth:70%;
+	}
+	article{
+	}
+	aside{
+		display:none;
+	}
+}
+@media screen and (max-width:500px){
+	#wrapper{
+		wirdth:100%;
+	}
+	main{
+		diplay:block;
+	}
+	main nav{
+		width:480px;
+	}
+	main nav .button{
+		width:80%;
+	}
+	section{
+		width:480px;
+	}
+	article{
+		
+	}
+	aside{
+		display:none;
+	}
+}
